@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	
+	 <link href="{{ url_for('static', filename='css/common.css') }}" rel="stylesheet">
+	
+	<!-- jquery -->
+	<script src="/static/jquery.min.js"></script>
+	<script src="/static/jquery-ui.min.js"></script>	
+	<script src="/static/jquery-latest.min.js"></script>
+	
+    <!-- Chart.js 추가 -->
+    <script src="/static/chart.js"></script>
+
+
+
+	<script>
+		
+	setInterval(function()
+	{
+
+		$.ajax({
+			type:"POST",
+			url:"/read_data",
+
+		}).done(function(data){
+			document.getElementById("plug1").innerHTML=data['plug1'];
+			document.getElementById("plug2").innerHTML=data['plug2'];
+			document.getElementById("plug3").innerHTML=data['plug3'];
+		})
+
+
+
+},1000 );
+
+
+ </script>
+ <script>
+	cnt=0
+	setInterval(function()
+	{
+
+		$.ajax({
+			type:"POST",
+			url:"/read_graph_data",
+
+		}).done(function(data){
+			  // AJAX를 통해 서버로부터 데이터를 받아옴 (여기서는 예시 데이터로 대체)
+			  const newData1 = data['graph_data1'];
+			  const newData2 = data['graph_data2'];
+			  const newData3 = data['graph_data3'];
+			  
+			  // 데이터를 새로운 값으로 업데이트
+			myChart.options.scales.y.max = 23000;
+				myChart.options.scales.y.min = 18500;
+				myChart2.options.scales.y.max = 23000;
+				myChart2.options.scales.y.min = 18500;
+				myChart3.options.scales.y.max = 23000;
+				myChart3.options.scales.y.min = 18500;
+				
+				myChart.data.datasets[0].data = newData1;
+				myChart2.data.datasets[0].data = newData2;
+				myChart3.data.datasets[0].data = newData3;
+		
+			  // 그래프 업데이트
+			  myChart.update();
+			  myChart2.update();
+			  myChart3.update();
+		})
+
+
+
+},10 );
+
+
+ </script>
+</head>
+<body>
+	<div class="contwrap">
+        <div class="item">
+            <div class="title">
+                <h2 id="name1">1번플러그</h2>
+                <h2 id="plug1">전력차단</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <h2 id="name2">2번플러그</h2>
+                <h2 id="plug2">전력차단</h2>
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <h2 id="name3">3번플러그</h2>
+                <h2 id="plug3">전력차단</h2>
+            </div>
+        </div>
+    </div>
+
+      <!-- 그래프를 표시할 canvas 요소 -->
+	  <!-- 그래프를 표시할 canvas 요소 -->
+	  <div class="chart-container">
+        <div class="chart-item">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="chart-item">
+            <canvas id="myChart2"></canvas>
+        </div>
+        <div class="chart-item">
+            <canvas id="myChart3"></canvas>
+        </div>
+    </div>
+	  <script>
+		  // 초기 그래프 데이터
+		  const initialData =Array.from({length:50},(_,i)=>i+1);
+  
+		  // 초기 그래프 생성
+		  const ctx = document.getElementById('myChart').getContext('2d');
+		  const myChart = new Chart(ctx, {
+			  type: 'line',
+			  data: {
+				  labels: initialData.map(String),
+				  datasets: [{
+					  label: 'PLUG 1',
+					  data: initialData,
+					  borderColor: 'rgb(75, 192, 192)',
+					  tension: 0.1
+				  }]
+			  },
+			  options: {
+				  scales: {
+					  y: {
+						  beginAtZero: true
+					  }
+				  }
+			  }
+		  });
+  
+
+		   // 초기 그래프 생성
+		   const ctx2 = document.getElementById('myChart2').getContext('2d');
+		   const myChart2 = new Chart(ctx2, {
+			   type: 'line',
+			   data: {
+				   labels: initialData.map(String),
+				   datasets: [{
+					   label: 'PLUG 2',
+					   data: initialData,
+					   borderColor: 'rgb(75, 192, 192)',
+					   tension: 0.1
+				   }]
+			   },
+			   options: {
+				   scales: {
+					   y: {
+						   beginAtZero: true
+					   }
+				   }
+			   }
+		   });
+  // 초기 그래프 생성
+  const ctx3 = document.getElementById('myChart3').getContext('2d');
+  const myChart3 = new Chart(ctx3, {
+	  type: 'line',
+	  data: {
+		  labels: initialData.map(String),
+		  datasets: [{
+			  label: 'PLUG 3',
+			  data: initialData,
+			  borderColor: 'rgb(75, 192, 192)',
+			  tension: 0.1
+		  }]
+	  },
+	  options: {
+		  scales: {
+			  y: {
+				  beginAtZero: true
+			  }
+		  }
+	  }
+  });
+	  </script>
+</body>
+</html>
