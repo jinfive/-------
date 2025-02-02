@@ -31,7 +31,7 @@
 capstone design
 Development period:2024.03.04 ~ 2024.06.10
 <br>
-## Team introduction
+## 👥 Team introduction
 Team leader:김흥주
 <br>
 team member:김진오,남강현,이채형
@@ -57,7 +57,7 @@ Requirement
 </ul>
 
 
-Installation
+## 🚀 Installation
 --
 
 ```
@@ -120,7 +120,7 @@ Communication
 </div>
 
 
-## etc
+## 🌐 etc
 <a href="https://drive.google.com/file/d/166SGvni65tOsIooB8u-ZIrnwMhnn5Uy-/view?usp=drive_link" target="_blank">final report >> https://drive.google.com/file/d/166SGvni65tOsIooB8u-ZIrnwMhnn5Uy-/view?usp=drive_link</a>
 
 <a href="https://www.youtube.com/watch?v=jF26-mtclxE" target="_blank">Demonstration video >> https://www.youtube.com/watch?v=jF26-mtclxE</a>
