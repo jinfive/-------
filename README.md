@@ -98,8 +98,8 @@ Add the following line to the end of the file
 Enviroment
 <br>
 <div style="display: flex; align-items: center;">
+  <img src="https://img.shields.io/badge/raspberrypi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=black" style="border-radius:10px">
   <img src="https://img.shields.io/badge/github-%23181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="margin-right: 10px;">
-  <img src="https://img.shields.io/badge/intellijidea-%23000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
 </div>
 <br><br>
 Development
