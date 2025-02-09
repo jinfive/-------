@@ -99,28 +99,29 @@ Enviroment
 <br>
 <div style="display: flex; align-items: center;">
   <img src="https://img.shields.io/badge/raspberrypi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=black" style="border-radius:10px">
+  <img src="https://img.shields.io/badge/googlecolab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" style="border-radius:10px">
   
 </div>
 <br><br>
 Development
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="https://img.shields.io/badge/JAVA-1572B6?style=for-the-badge&logo=JAVA&logoColor=white" style="margin-right: 10px;">
-  <img src="https://img.shields.io/badge/gradle-%2302303A?style=for-the-badge&logo=gradle&logoColor=white" alt="gradle"style="margin-right: 10px;">
-  <img src="https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" style="margin-right: 10px;">
+  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" style="border-radius:10px">
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" style="border-radius:10px">
+  
 </div>
 
 <br><br>
 Communication
 <br>
 <div style="display: flex; align-items: center;">
-  <img src="https://img.shields.io/badge/notion-%23000000?style=for-the-badge&logo=notion&logoColor=white" alt="notion"style="margin-right: 10px;">
-  <img src="https://img.shields.io/badge/googledrive-%234285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="googledrive" style="margin-right: 10px;">
-  <img src="https://img.shields.io/badge/Slack-%234A154B?style=for-the-badge&logo=Slack&logoColor=white" alt="Slack" style="margin-right: 10px;">
+  <img src="https://img.shields.io/badge/kakaotalk-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=white" style="border-radius:10px">
 </div>
 
 
 ## 🌐 etc
-<a href="https://drive.google.com/file/d/166SGvni65tOsIooB8u-ZIrnwMhnn5Uy-/view?usp=drive_link" target="_blank">final report >> https://drive.google.com/file/d/166SGvni65tOsIooB8u-ZIrnwMhnn5Uy-/view?usp=drive_link</a>
+<a href="https://docs.google.com/spreadsheets/d/1SN1DLJhe6vC6NH8kIV9UJla5Z8VHP_Rl/edit?gid=429682832#gid=429682832" target="_blank">grades data >> https://docs.google.com/spreadsheets/d/1SN1DLJhe6vC6NH8kIV9UJla5Z8VHP_Rl/edit?gid=429682832#gid=429682832</a>
 
-<a href="https://www.youtube.com/watch?v=jF26-mtclxE" target="_blank">Demonstration video >> https://www.youtube.com/watch?v=jF26-mtclxE</a>
+<a href="https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank">presentation >> https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto</a>
+
+<a href="https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank">final >> https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto</a>
