@@ -122,6 +122,6 @@ Communication
 ## 🌐 etc
 <a href="https://docs.google.com/spreadsheets/d/1SN1DLJhe6vC6NH8kIV9UJla5Z8VHP_Rl/edit?gid=429682832#gid=429682832" target="_blank">grades data >> https://docs.google.com/spreadsheets/d/1SN1DLJhe6vC6NH8kIV9UJla5Z8VHP_Rl/edit?gid=429682832#gid=429682832</a>
 
-<a href="https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank">presentation >> https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto</a>
+<a href="https://drive.google.com/file/d/1fBGJxnjC3L75YPvUwr9KR8rwJBDAOmsQ/view?usp=sharing" target="_blank">presentation >> https://drive.google.com/file/d/1fBGJxnjC3L75YPvUwr9KR8rwJBDAOmsQ/view?usp=sharing</a>
 
-<a href="https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank">final >> https://drive.google.com/drive/folders/1DojRZYnV4RD7odenslb8-5AMrl_uoTU-?dmr=1&ec=wgc-drive-globalnav-goto</a>
+<a href="https://drive.google.com/file/d/1QAvmrWZJEv4rtOqb98qd1T-YY2MO6o6d/view?usp=sharing" target="_blank">final repot>> https://drive.google.com/file/d/1QAvmrWZJEv4rtOqb98qd1T-YY2MO6o6d/view?usp=sharing</a>
